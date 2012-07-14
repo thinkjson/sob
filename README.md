@@ -1,8 +1,15 @@
 sob
 ===
 
-(stream output benchmarker)
+(stream output benchmarker)    
 benchmarking tool for unix pipelines
+
+## Installation
+
+	git clone git://github.com/thinkjson/sob.git
+	cd sob
+	make
+	make install
 
 ## Usage
 
@@ -23,5 +30,5 @@ benchmarking tool for unix pipelines
 	grep	500K	2899K lines/s	202M/s	7.152557M
 	od		600K	2941K lines/s	205M/s	7.152557M
 	grep	600K	2766K lines/s	193M/s	7.152557M
-	od		AVG	2862K lines/s	204M/s	44.578491M
-	grep	AVG	2670K lines/s	190M/s	44.512978M
+	od		OVERALL	2862K lines/s	204M/s	44.578491M
+	grep	OVERALL	2670K lines/s	190M/s	44.512978M

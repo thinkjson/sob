@@ -44,7 +44,7 @@ int main (int argc, char *argv[]) {
 
 	// Show totals
 	interval = ((float) clock()) / CLOCKS_PER_SEC;
-	fprintf(stderr, "%s\tAVG\t%dK lines/s\t%dM/s\t%fM\n", 
+	fprintf(stderr, "%s\tOVERALL\t%dK lines/s\t%dM/s\t%fM\n", 
 		identifier,
 		(int) (total_count / 1000 / interval),
 		(int) (total_size / 1024 / 1024 / interval),
